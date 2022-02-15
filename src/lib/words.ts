@@ -47,7 +47,6 @@ export const getWordOfDay = () => {
   const index = Math.floor((now - epochMs) / msInDay)
   const nextday = (index + 1) * msInDay + epochMs
 
-  console.log(WORDS.map((w) => w.name)[index % WORDS.map((w) => w.name)?.length].toUpperCase())
   return {
     solution: WORDS.map((w) => w.name)[index % WORDS.map((w) => w.name)?.length].toUpperCase(),
     solutionIndex: index,

@@ -12,10 +12,10 @@ export const WORDS = [
     title: "28 Moments of Black Canadian History",
   },
   {
-    name: "power ",
+    name: "power",
     type: "article",
-    url: "https://www.britannica.com/biography/Shirley-Chisholm",
-    title: "Learn More About Shirley-Chisholm",
+    url: "https://www.thecanadianencyclopedia.ca/en/article/rosemary-brown",
+    title: "Find Out About Rosemary Brown",
   },
   {
     name: "peace",
@@ -30,7 +30,7 @@ export const WORDS = [
     title: "Looking for something new and creative to watch? Here are 50 amazing black Youtubers!",
   },
   {
-    name: "hopes",
+    name: "dream",
     type: "charity",
     url: "https://www.blackstone.com/our-impact/blackstone-charitable-foundation/",
     title: "Blackstone Charitable Foundation",
@@ -44,15 +44,15 @@ export const WORDS = [
   {
     name: "strong",
     type: "article",
-    url: "https://www.britannica.com/biography/Jesse-Owens",
-    title: "Learn more about Jesse-Owens",
+    url: "https://www.thecanadianencyclopedia.ca/en/article/lincoln-maccauley-alexander",
+    title: "Find Out About Lincoln Alexander",
 
   },
   {
     name: "brave",
     type: "article",
-    url: "https://www.britannica.com/biography/Bayard-Rustin",
-    title: "Learn more about Bayard-Rustin",
+    url: "https://www.britannica.com/biography/Donovan-Bailey",
+    title: "Find Out About Donovan Bailey",
   },
   {
     name: "month",

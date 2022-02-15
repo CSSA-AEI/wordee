@@ -67,7 +67,6 @@ export const StatsModal = ({
         </div>
         <div style={{ padding: '0.5rem' }}>
           <Text style={{ color: 'white', fontWeight: 'normal', fontSize: 18 }}>
-            {console.log(WORDS)}
             {`${WORDS.find((w) => w.name === solution.toLowerCase())?.title}`}
           </Text>
         </div>

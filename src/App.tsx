@@ -209,7 +209,7 @@ function App() {
   return (
     <div className="pt-2 pb-8 max-w-7xl mx-auto sm:px-6 lg:px-8">
       <div className="flex w-80 mx-auto items-center mb-4 mt-20 text-xl grow font-bold dark:text-white" style={{fontSize: 45}}>Wordee</div>
-      <img src="bhm color.png" width={60} height={8} className="flex w-80 mx-auto items-center mb-0 text-xl grow" ></img>
+      <img src={require('./bhm color.png')} width="600" height="75" className="flex w-80 mx-auto items-center mb-0 " ></img>
       <div className="flex w-80 mx-auto mb-8">
         <h1 className="text-xl ml-2.5 grow font-bold dark:text-white">
           
