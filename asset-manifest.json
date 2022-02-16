@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/wordee/static/css/main.c1c578b7.css",
-    "main.js": "/wordee/static/js/main.dc03d3ac.js",
-    "static/js/787.b3f9d252.chunk.js": "/wordee/static/js/787.b3f9d252.chunk.js",
-    "index.html": "/wordee/index.html",
-    "main.c1c578b7.css.map": "/wordee/static/css/main.c1c578b7.css.map",
-    "main.dc03d3ac.js.map": "/wordee/static/js/main.dc03d3ac.js.map",
-    "787.b3f9d252.chunk.js.map": "/wordee/static/js/787.b3f9d252.chunk.js.map"
+    "main.css": "/static/css/main.c1c578b7.css",
+    "main.js": "/static/js/main.98d5310c.js",
+    "static/js/787.b3f9d252.chunk.js": "/static/js/787.b3f9d252.chunk.js",
+    "index.html": "/index.html",
+    "main.c1c578b7.css.map": "/static/css/main.c1c578b7.css.map",
+    "main.98d5310c.js.map": "/static/js/main.98d5310c.js.map",
+    "787.b3f9d252.chunk.js.map": "/static/js/787.b3f9d252.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c1c578b7.css",
-    "static/js/main.dc03d3ac.js"
+    "static/js/main.98d5310c.js"
   ]
 }
