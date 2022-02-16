@@ -277,6 +277,10 @@ function App() {
         {ABOUT_GAME_MESSAGE}
       </button>
 
+      <img src={require('./cssa.png')} className="flex w-10 mx-auto items-center mb-0 mt-8"></img>
+      <div className="text-center font-weight-bold mt-1 dark:text-white text-sm">
+        <b>CSSA-AEI 2022</b>
+      </div>
       <Alert message={NOT_ENOUGH_LETTERS_MESSAGE} isOpen={isNotEnoughLetters} />
       <Alert
         message={WORD_NOT_FOUND_MESSAGE}

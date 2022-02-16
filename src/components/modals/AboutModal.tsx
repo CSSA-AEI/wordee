@@ -20,6 +20,7 @@ export const AboutModal = ({ isOpen, handleClose }: Props) => {
           className="underline font-bold"
         >
           Learn more about CSSA
+          <img src={require('../../cssa.png')} className="flex w-20 mx-auto items-center mb-0 mt-5"></img>
         </a>{' '}
       </p>
     </BaseModal>
