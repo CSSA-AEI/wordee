@@ -12,9 +12,7 @@ import {
   SHARE_TEXT,
 } from '../../constants/strings'
 import { WORDS } from '../../constants/wordlist'
-import {
-  solution
-} from '../../lib/words'
+import { solution } from '../../lib/words'
 import { Text } from 'react-native'
 
 type Props = {
@@ -45,6 +43,62 @@ export const StatsModal = ({
         isOpen={isOpen}
         handleClose={handleClose}
       >
+        <div
+          style={{
+            backgroundColor: '#697990',
+            border: '2px',
+            borderRadius: '0.30rem',
+            paddingBottom: '1rem',
+          }}
+        >
+          <div
+            style={{
+              backgroundColor: '#535f71',
+              padding: '0.2rem',
+              border: '2px',
+              borderTopLeftRadius: '0.30rem',
+              borderTopRightRadius: '0.30rem',
+            }}
+          >
+            <Text
+              style={{
+                color: 'white',
+                backgroundColor: '#535f71',
+                fontWeight: 'bold',
+              }}
+            >
+              {'Check out this '}
+              {`${WORDS.find((w) => w.name === solution.toLowerCase())?.type}`}
+              {'!'}
+            </Text>
+          </div>
+          <div style={{ padding: '0.5rem' }}>
+            <Text
+              style={{ color: 'white', fontWeight: 'normal', fontSize: 18 }}
+            >
+              {`${WORDS.find((w) => w.name === solution.toLowerCase())?.title}`}
+            </Text>
+          </div>
+
+          <button
+            style={{
+              backgroundColor: '#2563eb',
+              paddingLeft: '0.7rem',
+              paddingRight: '0.7rem',
+              paddingTop: '0.4rem',
+              paddingBottom: '0.4rem',
+              fontSize: 15,
+              border: '2px',
+              borderRadius: '0.30rem',
+              color: 'white',
+            }}
+          >
+            <a href={WORDS.find((w) => w.name === solution.toLowerCase())?.url}>
+              Learn More
+            </a>
+          </button>
+        </div>
+
         <StatBar gameStats={gameStats} />
       </BaseModal>
     )
@@ -55,14 +109,33 @@ export const StatsModal = ({
       isOpen={isOpen}
       handleClose={handleClose}
     >
-
-      <div style={{ backgroundColor: '#697990', border: '2px', borderRadius: '0.30rem', paddingBottom: '1rem' }}>
-
-        <div style={{ backgroundColor: '#535f71', padding: '0.2rem', border: '2px', borderTopLeftRadius: '0.30rem', borderTopRightRadius: '0.30rem' }}>
-          <Text style={{ color: 'white', backgroundColor: '#535f71', fontWeight: 'bold' }}>
-            {"Check out this "}
+      <div
+        style={{
+          backgroundColor: '#697990',
+          border: '2px',
+          borderRadius: '0.30rem',
+          paddingBottom: '1rem',
+        }}
+      >
+        <div
+          style={{
+            backgroundColor: '#535f71',
+            padding: '0.2rem',
+            border: '2px',
+            borderTopLeftRadius: '0.30rem',
+            borderTopRightRadius: '0.30rem',
+          }}
+        >
+          <Text
+            style={{
+              color: 'white',
+              backgroundColor: '#535f71',
+              fontWeight: 'bold',
+            }}
+          >
+            {'Check out this '}
             {`${WORDS.find((w) => w.name === solution.toLowerCase())?.type}`}
-            {"!"}
+            {'!'}
           </Text>
         </div>
         <div style={{ padding: '0.5rem' }}>
@@ -71,15 +144,24 @@ export const StatsModal = ({
           </Text>
         </div>
 
-        <button style={{ backgroundColor: '#2563eb', paddingLeft: '0.7rem', paddingRight: '0.7rem', paddingTop: '0.4rem', paddingBottom: '0.4rem', fontSize: 15, border: '2px', borderRadius: '0.30rem', color: 'white' }}>
+        <button
+          style={{
+            backgroundColor: '#2563eb',
+            paddingLeft: '0.7rem',
+            paddingRight: '0.7rem',
+            paddingTop: '0.4rem',
+            paddingBottom: '0.4rem',
+            fontSize: 15,
+            border: '2px',
+            borderRadius: '0.30rem',
+            color: 'white',
+          }}
+        >
           <a href={WORDS.find((w) => w.name === solution.toLowerCase())?.url}>
             Learn More
           </a>
-
         </button>
-
       </div>
-
 
       <StatBar gameStats={gameStats} />
       <h4 className="text-lg leading-6 font-medium text-gray-900 dark:text-gray-100">
