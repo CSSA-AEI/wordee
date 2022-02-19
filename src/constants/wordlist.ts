@@ -42,7 +42,7 @@ export const WORDS = [
     title: "Roundtable: Black History in Canada",
   },
   {
-    name: "strong",
+    name: "unity",
     type: "article",
     url: "https://www.thecanadianencyclopedia.ca/en/article/lincoln-maccauley-alexander",
     title: "Find Out About Lincoln Alexander",
